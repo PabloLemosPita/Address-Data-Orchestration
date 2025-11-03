@@ -57,15 +57,13 @@ Password: senha do usuário
 
 Port: 5432 (padrão)
 
-Extra (opcional): JSON com parâmetros adicionais, ex.: { "sslmode": "disable" }
-
 Clique em Save.
 
 Dicas
 
 Verifique conectividade: na UI do Airflow (Connections) há um botão para testar a conexão em versões recentes; caso não exista, você pode testar executando um pequeno PythonOperator que usa PostgresHook().get_conn() para confirmar.
 
-Garanta que o Airflow e o Postgres estejam na mesma rede de contêineres (Docker Compose) ou que as regras de firewall/ports permitam a conexão.
+Garanta que o Airflow e o Postgres estejam na mesma rede de contêineres (Docker Compose).
 
 Como criar a tabela dentro do container PostgreSQL (terminal interativo)
 
