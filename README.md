@@ -1,6 +1,6 @@
 Address Data Orchestration
 
-Projeto simples para orquestração de ingestão de endereços usando Apache Airflow.
+Projeto para orquestração de ingestão de endereços usando Apache Airflow.
 
 Visão geral
 
